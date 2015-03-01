@@ -130,7 +130,7 @@ if [ -e "$DEPLOYMENT_TARGET/bower.json" ]; then
   cd - > /dev/null
 fi
 
-# 6. Install gulp packages
+# 5. Install gulp packages
 echo "installing gulp"
 if [ -e "$DEPLOYMENT_SOURCE/gulpfile.js" ]; then
   cd "$DEPLOYMENT_TARGET"
